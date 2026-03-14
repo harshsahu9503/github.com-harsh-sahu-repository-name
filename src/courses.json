@@ -1,0 +1,142 @@
+[
+  {
+    "id": "gate-cs-dsa",
+    "title": "GATE CS: Data Structures",
+    "description": "Comprehensive guide to Data Structures for GATE Computer Science preparation.",
+    "thumbnail": "https://picsum.photos/seed/gatecs/800/450",
+    "lessons": [
+      {
+        "id": "gcs1",
+        "title": "Introduction to Linked Lists",
+        "videoUrl": "https://www.youtube.com/embed/N6dOwBde7-M",
+        "description": "Understanding singly, doubly, and circular linked lists for GATE.",
+        "quiz": [
+          {
+            "question": "What is the time complexity to insert at the beginning of a singly linked list?",
+            "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Which linked list allows traversal in both directions?",
+            "options": ["Singly Linked List", "Doubly Linked List", "Circular Linked List", "None of the above"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "In a circular linked list, where does the last node point?",
+            "options": ["NULL", "The middle node", "The first node", "The second node"],
+            "correctAnswer": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gate-ee-control",
+    "title": "GATE EE: Control Systems",
+    "description": "Master Control Systems for GATE Electrical Engineering with clear concepts and problems.",
+    "thumbnail": "https://picsum.photos/seed/gateee/800/450",
+    "lessons": [
+      {
+        "id": "gee1",
+        "title": "Transfer Functions",
+        "videoUrl": "https://www.youtube.com/embed/L_f0G_m_E_k",
+        "description": "Basics of Laplace transforms and transfer function derivation.",
+        "quiz": [
+          {
+            "question": "What is a transfer function?",
+            "options": ["Ratio of input to output", "Ratio of Laplace transform of output to input with zero initial conditions", "A type of motor", "A mathematical error"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Transfer functions are applicable to which systems?",
+            "options": ["Non-linear systems", "Linear Time-Invariant (LTI) systems", "Time-varying systems", "All of the above"],
+            "correctAnswer": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-science-python",
+    "title": "Data Science with Python",
+    "description": "Learn how to use Python, Pandas, and NumPy for data analysis and visualization.",
+    "thumbnail": "https://picsum.photos/seed/datascience/800/450",
+    "lessons": [
+      {
+        "id": "ds1",
+        "title": "Pandas DataFrames",
+        "videoUrl": "https://www.youtube.com/embed/dcqPhpY764w",
+        "description": "Manipulating tabular data with the Pandas library.",
+        "quiz": [
+          {
+            "question": "What is a DataFrame in Pandas?",
+            "options": ["A 1D array", "A 2D labeled data structure", "A type of plot", "A file format"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Which function is used to read a CSV file in Pandas?",
+            "options": ["read_data()", "read_csv()", "get_csv()", "open_csv()"],
+            "correctAnswer": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ui-ux-design",
+    "title": "UI/UX Design Essentials",
+    "description": "Learn the principles of user interface and user experience design.",
+    "thumbnail": "https://picsum.photos/seed/uiux/800/450",
+    "lessons": [
+      {
+        "id": "ux1",
+        "title": "Design Thinking Process",
+        "videoUrl": "https://www.youtube.com/embed/T6T-m_l059g",
+        "description": "Empathize, Define, Ideate, Prototype, and Test.",
+        "quiz": [
+          {
+            "question": "What is the first stage of Design Thinking?",
+            "options": ["Ideate", "Prototype", "Empathize", "Test"],
+            "correctAnswer": 2
+          },
+          {
+            "question": "What is a wireframe?",
+            "options": ["A high-fidelity mockup", "A low-fidelity visual guide of a page", "A type of code", "A marketing strategy"],
+            "correctAnswer": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-intro",
+    "title": "Introduction to AI",
+    "description": "Learn the fundamentals of Artificial Intelligence, from neural networks to generative models.",
+    "thumbnail": "https://picsum.photos/seed/ai/800/450",
+    "lessons": [
+      {
+        "id": "l1",
+        "title": "What is AI?",
+        "videoUrl": "https://www.youtube.com/embed/ad79nYk2keg",
+        "description": "A high-level overview of what AI is and how it differs from traditional programming.",
+        "quiz": [
+          {
+            "question": "What is the primary goal of AI?",
+            "options": ["To replace humans", "To create systems that can perform tasks requiring human intelligence", "To build faster computers", "To automate physical labor only"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Which of these is a branch of AI?",
+            "options": ["Machine Learning", "Web Development", "Database Management", "Cloud Computing"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "What does 'Generative AI' mean?",
+            "options": ["AI that generates power", "AI that creates new content", "AI that generates code only", "AI that is very old"],
+            "correctAnswer": 1
+          }
+        ]
+      }
+    ]
+  }
+]
